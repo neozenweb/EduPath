@@ -33,6 +33,8 @@ class Courses extends Component {
      fetch("/edxData")
                 .then(res=>res.json())
                 .then(data=>{
+         
+         console.log(data);
                    filteredData = data.filter(dt=>
                      (dt.title.indexOf(this.props.subject) >=0)
                      || (dt.short_description.indexOf(this.props.subject) >=0)
@@ -54,7 +56,7 @@ class Courses extends Component {
                 .then(res=>res.json())
                 .then(data=>{
          
-         
+           
           filteredData = data.filter(dt=> dt.name.indexOf(this.props.subject) >=0);
                  
               
