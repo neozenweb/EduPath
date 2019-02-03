@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Edupath Backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,19 @@
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "neozenweb",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "node-fetch": "^2.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neozenweb/EduPath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neozenweb/EduPath/issues"
+  },
+  "homepage": "https://github.com/neozenweb/EduPath#readme"
 }
