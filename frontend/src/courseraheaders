@@ -1,0 +1,15 @@
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Content-Type: application/json
+Date: Tue, 22 Jan 2019 17:56:08 GMT
+etag: W/"1530610891"
+Server: envoy
+Set-Cookie: CSRF3-Token=1549043768.h0ayrxqDz1l6jjdE; Max-Age=864000; Expires=Fri, 01 Feb 2019 17:56:08 GMT; Path=/; Domain=.coursera.org
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Coursera-Request-Id: _zEv9B5uEemPDQpLHRJbWg
+X-Coursera-Trace-Id-Hex: 1478aaa163790e35
+x-envoy-upstream-service-time: 42
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 14304
+Connection: keep-alive
